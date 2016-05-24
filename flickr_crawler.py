@@ -70,7 +70,7 @@ def get_photo_info(photo_id):
 
 locationsToCheck = ["bcn", "barcelona", "badalona", "hospitalet"]
 
-apiKey = "50162d5a356312b62ae6cd179efa1daf"
+apiKey = "YOUR-FLICKR-API-KEY"
 
 # Barcelona bounding box
 min_lon =2.069526
