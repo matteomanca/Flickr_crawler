@@ -9,6 +9,7 @@ sys.setdefaultencoding('utf-8')
 if sys.stdout.encoding is None:
 	sys.stdout = codecs.open("/dev/stdout", "w", 'utf-8')
 
+# I need to convert the photo coordinates also in UTMZ31N_ETRS89 format. for this I will use pyproj
 """
 INSTALL pyproj:
 
