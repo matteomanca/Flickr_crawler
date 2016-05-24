@@ -71,6 +71,9 @@ def get_photo_info(photo_id):
 
 locationsToCheck = ["bcn", "barcelona", "badalona", "hospitalet"]
 
+"""CREATE YOUR FLICKR API KEY: 
+https://www.flickr.com/services/api/misc.api_keys.html """
+
 apiKey = "YOUR-FLICKR-API-KEY"
 
 # Barcelona bounding box
